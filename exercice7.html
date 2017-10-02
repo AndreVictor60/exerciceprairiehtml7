@@ -1,0 +1,42 @@
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Exercice 7</title>
+  </head>
+  <body>
+    <form>
+      <fieldset id="fieldset1">
+        <legend id="legend1">Votre identité</legend>
+          <ol>
+            <li>Nom : <input type="text" name="nom" placeholder="Nom"><label for="Nom"></label></li>
+            <li>Prénom : <input type="text" name="prenom" placeholder="Prenom"><label for="Prenom"></label></li>
+            <li>Adresse mail : <input type="text" name="email" placeholder="Adresse mail"><label for="Email"></label></li>
+          </ol>
+      </fieldset>
+      <fieldset id="fieldset2">
+        <legend id="legend2">Adresse de livraison</legend>
+          <ol>
+            <li>Adresse : <textarea></textarea></li>
+            <li>Code postal : <input type="text" name="code-postal" placeholder="code postal"><label for="CodePostal"></label></li>
+            <li>Ville : <input type="text" name="ville" placeholder="Ville"><label for="Ville"></label></li>
+          </ol>
+      </fieldset>
+      <fieldset id="fieldset3">
+        <legend id="legend3">Information de réglement</legend>
+          <ol>
+            <li>Type de carte bancaire :</li>
+            <ul>
+              <li><input type="radio" name="VISA" placeholder="VISA">VISA <label for="Visa"></label></li>
+              <li><input type="radio" name="Mastercard" placeholder="Mastercard">Mastercard<label for="Mastercard"></label></li>
+            </ul>
+            <li>Numéro de carte : <input type="text" name="numcard" placeholder="Numéro de carte"><label for="NumeroCarte"></label></li>
+            <li>Code de sécurite : <input type="text" name="passwordCard" placeholder="Code de sécurite"><label for="CodeSecurite"></label></li>
+            <li>Nom du titulaire : <input type="text" name="NomTitulaire" placeholder="Nom du titulaire"><label for="NomTitulaire"></label></li>
+          </ol>
+      </fieldset>
+      <input type="submit" value="J'achète !" name="ButtonBuy"><label for="buttonbuy"></label>
+    </form>
+  </body>
+</html>
