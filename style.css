@@ -1,0 +1,13 @@
+
+fieldset#fieldset1 , fieldset#fieldset1 legend{
+  background-color:rgb(37,116,169);
+}
+fieldset#fieldset2, fieldset#fieldset2 legend{
+  background-color: rgb(154,18,179);
+}
+fieldset#fieldset3, fieldset#fieldset3 legend{
+  background-color: rgb(219,10,91);
+}
+ul{
+  list-style: none;
+}
